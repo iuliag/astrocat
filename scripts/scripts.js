@@ -205,6 +205,7 @@ async function loadLazy(doc) {
  */
 function loadDelayed() {
   import('./consent-check.js');
+  // Web SDK on every page; it gates the WebMCP loader on consent
   import('./websdk.js').then(({ initWebSdk }) => initWebSdk());
   // load anything that can be postponed to the latest here
 }
