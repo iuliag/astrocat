@@ -11,3 +11,6 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+
+# local git worktrees
+.claude/worktrees/
