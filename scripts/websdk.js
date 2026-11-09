@@ -10,7 +10,7 @@
 
 // Dev org and datastream.
 export const ORG_ID = '908936ED5D35CC220A495CD4@AdobeOrg';
-export const DATASTREAM_ID = '6af22481a574d809549b9d5b';
+export const DATASTREAM_ID = 'e52be8ad-20aa-4ad9-80c1-f55331ee4bd3';
 
 export const ALLOY_SRC = 'https://cdn1.adoberesources.net/alloy/2.37.1/alloy.min.js';
 export const LOADER_SRC = 'https://d327fx17rhd87i.cloudfront.net/webmcp-store/delivery.js';
