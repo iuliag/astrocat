@@ -8,9 +8,9 @@
  *   anything else               opt out (site default)
  */
 
-// Dev org and datastream; replace the placeholders before testing.
-export const ORG_ID = '<DEV_ORG_ID>';
-export const DATASTREAM_ID = '<DEV_DATASTREAM_ID>';
+// Dev org and datastream.
+export const ORG_ID = '908936ED5D35CC220A495CD4@AdobeOrg';
+export const DATASTREAM_ID = '6af22481a574d809549b9d5b';
 
 export const ALLOY_SRC = 'https://cdn1.adoberesources.net/alloy/2.37.1/alloy.min.js';
 export const LOADER_SRC = 'https://d327fx17rhd87i.cloudfront.net/webmcp-store/delivery.js';

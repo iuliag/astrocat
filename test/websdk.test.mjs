@@ -61,7 +61,8 @@ test('installAlloyQueue installs the official command queue once', async () => {
 test('placeholder IDs: no Web SDK, no loader', async (t) => {
   silenceConsole(t);
   const env = fakeEnv({ search: '?consent=accept' });
-  assert.equal(await initWebSdk({ win: env.win, doc: env.doc }), false);
+  const placeholders = { orgId: '<DEV_ORG_ID>', datastreamId: '<DEV_DATASTREAM_ID>' };
+  assert.equal(await initWebSdk({ win: env.win, doc: env.doc, ...placeholders }), false);
   assert.deepEqual(env.calls, []);
   assert.deepEqual(env.appended, []);
 });
